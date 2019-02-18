@@ -14,7 +14,7 @@ class Weather {
 		return data;
 	}
 
-	changeLocation(zip, country) {
+	changeWeatherLocation(zip, country) {
 		this.zip = zip;
 		this.country = country;
 	}
